@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "PP1uKx+cvAXjPGwCxzU11HSfDUSwxlNJCc4Cq+mjwo8=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApi/wwwroot",
+      "Source": "WebApi",
+      "ContentRoot": "/Users/samir/Desktop/GYM/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
