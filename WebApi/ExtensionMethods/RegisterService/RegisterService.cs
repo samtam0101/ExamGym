@@ -9,6 +9,7 @@ using Infrastructure.Services.PaymentServices;
 using Infrastructure.Services.TrainerServices;
 using Infrastructure.Services.UserServices;
 using Infrastructure.Services.WorkoutServices;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace WebApi.ExtensionMethods.RegisterService;
@@ -29,5 +30,17 @@ public static class RegisterService
         services.AddScoped<IMembershipService, MembershipService>();
         services.AddScoped<IWorkoutService, WorkoutService>();
         services.AddScoped<IUserService, UserService>();
+
+        services.AddIdentity<IdentityUser, IdentityRole>(config =>
+            {
+                config.Password.RequiredLength = 4;
+                config.Password.RequireDigit = false; // must have at least one digit
+                config.Password.RequireNonAlphanumeric = false; // must have at least one non-alphanumeric character
+                config.Password.RequireUppercase = false; // must have at least one uppercase character
+                config.Password.RequireLowercase = false;  // must have at least one lowercase character
+            })
+            //for registering usermanager and signinmanger
+            .AddEntityFrameworkStores<DataContext>()
+            .AddDefaultTokenProviders();
     }
 }

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers;
 [ApiController]
 [Route("[controller]")]
-//[Authorize]
+[Authorize]
 public class PaymentController(IPaymentService paymentService):ControllerBase
 {
     [HttpGet("Get-Payments")]

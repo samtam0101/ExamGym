@@ -15,13 +15,12 @@ public class AccountService(DataContext context, IConfiguration configuration, R
 {
     private async Task<string> GenerateJwtToken(IdentityUser user)
     {
-        var key = Encoding.UTF8.GetBytes(configuration["Jwt:Key"]);
+        var key = Encoding.UTF8.GetBytes(configuration["JWT:Key"]);
         var securityKey = new SymmetricSecurityKey(key);
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
         var claims = new List<Claim>()
         {
             new Claim(JwtRegisteredClaimNames.Name, user.UserName),
-            new Claim(JwtRegisteredClaimNames.Email, user.Email),
             new Claim(JwtRegisteredClaimNames.NameId, user.Id),
         };
         
@@ -30,8 +29,8 @@ public class AccountService(DataContext context, IConfiguration configuration, R
         claims.AddRange(roles.Select(role=>new Claim(ClaimTypes.Role,role)));
         
         var token = new JwtSecurityToken(
-            issuer: configuration["Jwt:Issuer"],
-            audience: configuration["Jwt:Audience"],
+            issuer: configuration["JWT:Issuer"],
+            audience: configuration["JWT:Audience"],
             claims: claims,
             expires: DateTime.UtcNow.AddHours(1),
             signingCredentials: credentials

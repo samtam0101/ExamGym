@@ -125,3 +125,4 @@
 /Users/samir/Desktop/GYM/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
 /Users/samir/Desktop/GYM/WebApi/obj/Debug/net8.0/ref/WebApi.dll
 /Users/samir/Desktop/GYM/WebApi/bin/Debug/net8.0/WebApi.staticwebassets.runtime.json
+/Users/samir/Desktop/GYM/WebApi/obj/Debug/net8.0/WebApi.sourcelink.json

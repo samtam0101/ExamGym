@@ -31,7 +31,6 @@ public class Seeder(DataContext context, UserManager<IdentityUser> userManager, 
         var identity = new IdentityUser()
         {
             UserName = "admin",
-            Email = "admin@gmail.com"
         };
 
         var result = await userManager.CreateAsync(identity, "hello123");

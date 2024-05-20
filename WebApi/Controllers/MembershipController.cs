@@ -2,11 +2,13 @@ using Domain.DTOs.MembershipDto;
 using Domain.Filters;
 using Domain.Responses;
 using Infrastructure.Services.MembershipServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers;
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class MembershipController(IMembershipService membershipService):ControllerBase
 {
     [HttpGet("Get-Memberships")]

@@ -2,11 +2,13 @@ using Domain.DTOs.WorkoutDto;
 using Domain.Filters;
 using Domain.Responses;
 using Infrastructure.Services.WorkoutServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers;
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class WorkoutController(IWorkoutService workoutService):ControllerBase
 {
     [HttpGet("Get-Workouts")]
