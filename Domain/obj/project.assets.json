@@ -1588,11 +1588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samir/Desktop/GYM/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/samir/Desktop/GYM/Domain/Domain.csproj",
+      "projectPath": "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj",
       "packagesPath": "/Users/samir/.nuget/packages/",
-      "outputPath": "/Users/samir/Desktop/GYM/Domain/obj/",
+      "outputPath": "/Users/samir/Desktop/ExamGym/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samir/.nuget/NuGet/NuGet.Config"

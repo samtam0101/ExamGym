@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YGTmcbAUkgftlUJJs6s0t7bXvaRwgWAnX16jmdkOufvoc1vGm8vX6PUWrQ8Y9+5VOSyMZuvmLKF+br5KEG3oQA==",
+  "dgSpecHash": "6GFAHMK9pYVyhWYCADu8vYaQBU93lmbZC4loCeaBQiT25znQm9YfIzWK1AK6Z7F9mkzeCjvp0bFR4qxdOv7MIw==",
   "success": true,
-  "projectFilePath": "/Users/samir/Desktop/GYM/WebApi/WebApi.csproj",
+  "projectFilePath": "/Users/samir/Desktop/ExamGym/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/samir/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/samir/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/samir/Desktop/ExamGym/WebApi/wwwroot/images/5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg",
+      "PackagePath": "staticwebassets/images/5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props",
+      "PackagePath": "build\\WebApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\WebApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props",
+      "PackagePath": "buildTransitive\\WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PP1uKx+cvAXjPGwCxzU11HSfDUSwxlNJCc4Cq+mjwo8=",
+  "Hash": "PgzZjuyIouKwqITzRSo1/tmvPOPv2h/gCRZxPQnl7t0=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -10,10 +10,30 @@
     {
       "Name": "WebApi/wwwroot",
       "Source": "WebApi",
-      "ContentRoot": "/Users/samir/Desktop/GYM/WebApi/wwwroot/",
+      "ContentRoot": "/Users/samir/Desktop/ExamGym/WebApi/wwwroot/",
       "BasePath": "_content/WebApi",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/samir/Desktop/ExamGym/WebApi/wwwroot/images/5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/samir/Desktop/ExamGym/WebApi/wwwroot/",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "images/5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg"
+    }
+  ]
 }

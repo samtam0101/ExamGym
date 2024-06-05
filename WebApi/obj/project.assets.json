@@ -4421,11 +4421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samir/Desktop/GYM/WebApi/WebApi.csproj",
+      "projectUniqueName": "/Users/samir/Desktop/ExamGym/WebApi/WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "/Users/samir/Desktop/GYM/WebApi/WebApi.csproj",
+      "projectPath": "/Users/samir/Desktop/ExamGym/WebApi/WebApi.csproj",
       "packagesPath": "/Users/samir/.nuget/packages/",
-      "outputPath": "/Users/samir/Desktop/GYM/WebApi/obj/",
+      "outputPath": "/Users/samir/Desktop/ExamGym/WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samir/.nuget/NuGet/NuGet.Config"
@@ -4440,11 +4440,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/samir/Desktop/GYM/Domain/Domain.csproj": {
-              "projectPath": "/Users/samir/Desktop/GYM/Domain/Domain.csproj"
+            "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj": {
+              "projectPath": "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj"
             },
-            "/Users/samir/Desktop/GYM/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/samir/Desktop/GYM/Infrastructure/Infrastructure.csproj"
+            "/Users/samir/Desktop/ExamGym/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/samir/Desktop/ExamGym/Infrastructure/Infrastructure.csproj"
             }
           }
         }

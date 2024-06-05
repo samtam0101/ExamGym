@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ch4helojjkoubprKebqEa8r1RNph0jo1sDMmO2ART2rP1ZzJuct3hS1X6ICLWFV2+qGakgzj/fOMpDjrzkTl4A==",
+  "dgSpecHash": "vbbgqbvrXpqUU1IvsoUGa2Cv1BgP2vCPkcV73D6PFzb8eq6GMC6AcxWeYMecYAIGxS7ki6Y7evC3371/SDlw5A==",
   "success": true,
-  "projectFilePath": "/Users/samir/Desktop/GYM/Domain/Domain.csproj",
+  "projectFilePath": "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/Users/samir/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/Users/samir/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

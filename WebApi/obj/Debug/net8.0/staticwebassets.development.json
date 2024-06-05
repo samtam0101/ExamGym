@@ -1,1 +1,1 @@
-{"ContentRoots":["/Users/samir/Desktop/GYM/WebApi/wwwroot/"],"Root":{"Children":null,"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
+{"ContentRoots":["/Users/samir/Desktop/ExamGym/WebApi/wwwroot/"],"Root":{"Children":{"images":{"Children":{"5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"images/5db9a913-76c8-4e7d-811f-8f3dc840d6aa.jpg"},"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}

@@ -2439,11 +2439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samir/Desktop/GYM/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/Users/samir/Desktop/ExamGym/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/Users/samir/Desktop/GYM/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/Users/samir/Desktop/ExamGym/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/Users/samir/.nuget/packages/",
-      "outputPath": "/Users/samir/Desktop/GYM/Infrastructure/obj/",
+      "outputPath": "/Users/samir/Desktop/ExamGym/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samir/.nuget/NuGet/NuGet.Config"
@@ -2458,8 +2458,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/samir/Desktop/GYM/Domain/Domain.csproj": {
-              "projectPath": "/Users/samir/Desktop/GYM/Domain/Domain.csproj"
+            "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj": {
+              "projectPath": "/Users/samir/Desktop/ExamGym/Domain/Domain.csproj"
             }
           }
         }

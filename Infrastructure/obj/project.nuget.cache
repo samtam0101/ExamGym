@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rhTtl2dGjcYP19xFTuQkCm+qqE0Latrj3Mpnh3fiNQ+gef+WYpxoXCJEONxaZ1B2rMWaNpiQVZtLY1cfFIvyLw==",
+  "dgSpecHash": "aDVbc1JCGvqa2lrjEe3dhDUMRjosOnhCVH/LHognU0u13yL1ezY+rcYMzo8mp38oKhibiKNuknE0hV9ZuYoFcQ==",
   "success": true,
-  "projectFilePath": "/Users/samir/Desktop/GYM/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/samir/Desktop/ExamGym/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/samir/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/samir/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
